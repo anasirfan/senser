@@ -1,0 +1,50 @@
+{
+  "headline": {
+    "prefix": "Mukammal ",
+    "highlight": "Store Visibility",
+    "lineBreak": true,
+    "suffix": "with"
+  },
+  "brandName": "SenseR",
+  "description": "SenseR aap ki store ke maujooda cameras ko AI-powered dashboard mein tabdeel karta hai jo staff ki sargarmi, customer ki amd o raft, aur store operations ki real-time visibility deta hai.",
+  "ctaButton": "Rabta Karein",
+  "sectionLabel": "SenseR Aap Ko Kya Dikhata Hai",
+  "featureCards": [
+    {
+      "icon": "employee",
+      "title": "Employee Visibility",
+      "items": [
+        "Staff ki hazri aur shift tracking",
+        "Floor par maujoodgi aur bekar waqt",
+        "Khudkaar gair-hazri ki alerts"
+      ]
+    },
+    {
+      "icon": "store",
+      "title": "Store aur Customer Insights",
+      "items": [
+        "Customer footfall aur peak hours",
+        "Queue aur counter ki sargarmi",
+        "Store zone activity monitoring"
+      ]
+    }
+  ],
+  "benefits": {
+    "title": "Retail Brands SenseR Kyun Istemal Karti Hain",
+    "items": [
+      "Chori aur staff ka ghalat istemal kam karein",
+      "Staff ki jawabdahi behtar karein",
+      "Customer ki amd o raft samjhein",
+      "Store ke faislay tezi se karein"
+    ]
+  },
+  "form": {
+    "subtitle": "Apni details darj karein taake hum aap se rabta kar sakein!",
+    "fields": [
+      { "name": "fullName", "label": "Poora Naam", "type": "text", "placeholder": "Naam", "required": true },
+      { "name": "company", "label": "Company", "type": "text", "placeholder": "Company", "required": true },
+      { "name": "workEmail", "label": "Kaam ki Email", "type": "email", "placeholder": "Email", "required": true }
+    ],
+    "submitText": "Bhejein"
+  }
+}

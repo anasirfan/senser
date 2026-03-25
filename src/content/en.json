@@ -1,0 +1,50 @@
+{
+  "headline": {
+    "prefix": "Complete ",
+    "highlight": "Store Visibility",
+    "lineBreak": true,
+    "suffix": "with"
+  },
+  "brandName": "SenseR",
+  "description": "SenseR transforms your existing store cameras into an AI-powered dashboard that gives real-time visibility into staff activity, customer movement, and store operations.",
+  "ctaButton": "Get In Touch",
+  "sectionLabel": "What SenseR Helps You See",
+  "featureCards": [
+    {
+      "icon": "employee",
+      "title": "Employee Visibility",
+      "items": [
+        "Staff attendance & shift tracking",
+        "Floor presence & idle time",
+        "Automated absence alerts"
+      ]
+    },
+    {
+      "icon": "store",
+      "title": "Store & Customer Insights",
+      "items": [
+        "Customer footfall & peak hours",
+        "Queue & counter activity",
+        "Store zone activity monitoring"
+      ]
+    }
+  ],
+  "benefits": {
+    "title": "Why Retail Brands Use SenseR",
+    "items": [
+      "Reduce shrinkage & staff misuse",
+      "Improve staff accountability",
+      "Understand customer movement",
+      "Make faster store decisions"
+    ]
+  },
+  "form": {
+    "subtitle": "Please enter your details so we can get in touch with you!",
+    "fields": [
+      { "name": "fullName", "label": "Full Name", "type": "text", "placeholder": "Name", "required": true },
+      { "name": "company", "label": "Company", "type": "text", "placeholder": "Company", "required": true },
+      { "name": "workEmail", "label": "Work Email", "type": "email", "placeholder": "Email", "required": true }
+    ],
+    "submitText": "Submit"
+  }
+}
