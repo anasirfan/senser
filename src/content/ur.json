@@ -1,50 +1,50 @@
 {
   "headline": {
-    "prefix": "Mukammal ",
-    "highlight": "Store Visibility",
+    "prefix": "Store ki Complete ",
+    "highlight": "Visibility",
     "lineBreak": true,
-    "suffix": "with"
+    "suffix": "SenseR Ke Saath"
   },
   "brandName": "SenseR",
-  "description": "SenseR aap ki store ke maujooda cameras ko AI-powered dashboard mein tabdeel karta hai jo staff ki sargarmi, customer ki amd o raft, aur store operations ki real-time visibility deta hai.",
-  "ctaButton": "Rabta Karein",
-  "sectionLabel": "SenseR Aap Ko Kya Dikhata Hai",
+  "description": "SenseR aapke existing store cameras ko AI-powered dashboard mein convert karta hai jo real-time mein staff activity, customer movement aur store operations ko track karta hai.",
+  "ctaButton": "Get In Touch",
+  "sectionLabel": "SenseR Aapko Kya Dekhne Mein Madad Deta Hai",
   "featureCards": [
     {
       "icon": "employee",
       "title": "Employee Visibility",
       "items": [
-        "Staff ki hazri aur shift tracking",
-        "Floor par maujoodgi aur bekar waqt",
-        "Khudkaar gair-hazri ki alerts"
+        "Staff attendance aur shift tracking",
+        "Floor presence aur idle time",
+        "Automated absence alerts"
       ]
     },
     {
       "icon": "store",
-      "title": "Store aur Customer Insights",
+      "title": "Store & Customer Insights",
       "items": [
         "Customer footfall aur peak hours",
-        "Queue aur counter ki sargarmi",
+        "Queue aur counter activity",
         "Store zone activity monitoring"
       ]
     }
   ],
   "benefits": {
-    "title": "Retail Brands SenseR Kyun Istemal Karti Hain",
+    "title": "Retail Brands SenseR Kyun Use Karte Hain",
     "items": [
-      "Chori aur staff ka ghalat istemal kam karein",
-      "Staff ki jawabdahi behtar karein",
-      "Customer ki amd o raft samjhein",
-      "Store ke faislay tezi se karein"
+      "Shrinkage aur staff misuse kam karein",
+      "Staff accountability improve karein",
+      "Customer movement ko samjhein",
+      "Tez aur behtar store decisions lein"
     ]
   },
   "form": {
-    "subtitle": "Apni details darj karein taake hum aap se rabta kar sakein!",
+    "subtitle": "Apni details enter karein taake hum aapse rabta kar sakein!",
     "fields": [
-      { "name": "fullName", "label": "Poora Naam", "type": "text", "placeholder": "Naam", "required": true },
+      { "name": "fullName", "label": "Full Name", "type": "text", "placeholder": "Name", "required": true },
       { "name": "company", "label": "Company", "type": "text", "placeholder": "Company", "required": true },
-      { "name": "workEmail", "label": "Kaam ki Email", "type": "email", "placeholder": "Email", "required": true }
+      { "name": "workEmail", "label": "Work Email", "type": "email", "placeholder": "Email", "required": true }
     ],
-    "submitText": "Bhejein"
+    "submitText": "Submit"
   }
 }

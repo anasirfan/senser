@@ -3,7 +3,7 @@ import FeatureCard from './FeatureCard'
 import BenefitItem from './BenefitItem'
 
 export default function LeftContent({ content, onCtaClick, onVideoClick }) {
-  const { headline, brandName, description, ctaButton, sectionLabel, featureCards, benefits } = content
+  const { headline, description, ctaButton, sectionLabel, featureCards, benefits } = content
 
   return (
     <div className="left-content">
@@ -20,12 +20,15 @@ export default function LeftContent({ content, onCtaClick, onVideoClick }) {
           </h1>
           <p className="description">{description}</p>
         </div>
+      </div>
 
+      <div className="cta-wrap">
         <button className="cta-btn" type="button" onClick={onCtaClick}>
           <MailIcon size={16} stroke="#fff" />
           <span>{ctaButton}</span>
         </button>
       </div>
+      <div className="hero-curve" />
 
       <div className="content-wrapper">
         <button className="section-label" type="button" onClick={onVideoClick}>

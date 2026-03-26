@@ -33,24 +33,15 @@ function AdminRoute() {
 }
 
 function LandingPage() {
-  const [lang, setLang] = useState(getInitialLang)
+  const [lang] = useState(getInitialLang)
   const [modalOpen, setModalOpen] = useState(false)
   const [videoOpen, setVideoOpen] = useState(false)
 
   const content = languages[lang]
 
-  const toggleLang = () => {
-    const next = lang === 'en' ? 'ur' : 'en'
-    setLang(next)
-    window.history.replaceState(null, '', next === 'en' ? '/' : `/${next}`)
-  }
-
   return (
     <div className="page">
       <div className="bg-circle" />
-      <button className="lang-toggle" onClick={toggleLang}>
-        {lang === 'en' ? 'اردو' : 'English'}
-      </button>
       <LeftContent
         content={content}
         onCtaClick={() => setModalOpen(true)}
