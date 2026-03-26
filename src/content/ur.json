@@ -3,7 +3,8 @@
     "prefix": "Store ki Complete ",
     "highlight": "Visibility",
     "lineBreak": true,
-    "suffix": "SenseR Ke Saath"
+    "suffix": "",
+    "end" : "Ke Saath"
   },
   "brandName": "SenseR",
   "description": "SenseR aapke existing store cameras ko AI-powered dashboard mein convert karta hai jo real-time mein staff activity, customer movement aur store operations ko track karta hai.",

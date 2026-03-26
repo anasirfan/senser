@@ -3,7 +3,8 @@
     "prefix": "Complete ",
     "highlight": "Store Visibility",
     "lineBreak": true,
-    "suffix": "with"
+    "suffix": "with",
+    "end" : ""
   },
   "brandName": "SenseR",
   "description": "SenseR transforms your existing store cameras into an AI-powered dashboard that gives real-time visibility into staff activity, customer movement, and store operations.",

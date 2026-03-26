@@ -17,6 +17,7 @@ export default function LeftContent({ content, onCtaClick, onVideoClick }) {
             <span className="senser-brand">
               <SenserLogo className="senser-logo-icon" />
             </span>
+            {headline.end}
           </h1>
           <p className="description">{description}</p>
         </div>
