@@ -4,9 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SenseR - Complete Store Visibility</title>
-  <link rel="icon" type="image/svg+xml" href="/favicon/light.svg" media="(prefers-color-scheme: light)">
-  <link rel="icon" type="image/svg+xml" href="/favicon/dark.svg" media="(prefers-color-scheme: dark)">
-  <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+  <link rel="icon" id="favicon" type="image/svg+xml" href="/favicon/light.svg">
+  <script>
+    (function() {
+      var q = window.matchMedia('(prefers-color-scheme: dark)');
+      function set(e) {
+        document.getElementById('favicon').href = e.matches ? '/favicon/dark.svg' : '/favicon/light.svg';
+      }
+      set(q);
+      q.addEventListener('change', set);
+    })();
+  </script>
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
   <link rel="manifest" href="/favicon/site.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
