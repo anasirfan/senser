@@ -117,7 +117,7 @@ html, body {
 }
 
 .cta-btn:hover { background: #0e6ae6; }
-.cta-btn { align-self: flex-start; }
+.cta-btn { align-self: flex-start; margin-bottom: 15px; }
 .cta-btn svg { flex-shrink: 0; }
 
 /* Section label */
@@ -147,6 +147,7 @@ html, body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: clamp(0.75rem, 1.25vw, 1.5rem);
+  margin-bottom: 20px;
 }
 
 .feature-card {
