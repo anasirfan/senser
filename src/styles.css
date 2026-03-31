@@ -637,7 +637,7 @@ html, body {
 
   .collage { position: relative; background: #F8F8F8; }
   .collage-bg { object-position: center top; height: auto; }
-  .collage-bg.mobile-only { padding: 1.5rem 1rem 0; background: #F8F8F8; object-fit: contain; }
+  .collage-bg.mobile-only { background: #F8F8F8; object-fit: contain; }
   .desktop-only { display: none; }
   .mobile-only { display: block; }
 
@@ -723,10 +723,12 @@ html, body {
   .feature-card-body { font-size: 0.875rem; }
   .feature-card-body li { text-align: left; }
 
-  /* Mobile collage between features and benefits */
+  /* Mobile collage between features and benefits — break out of parent padding */
   .mobile-collage {
     display: block;
-    width: 100%;
+    width: calc(100% + 3rem);
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
   }
 
   .mobile-collage-img {
