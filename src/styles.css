@@ -28,7 +28,7 @@ html, body {
   width: 50%;
   height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   padding-left: clamp(2rem, 5.2vw, 100px);
   padding-right: clamp(1.5rem, 2vw, 40px);
   position: relative;
@@ -117,7 +117,7 @@ html, body {
 }
 
 .cta-btn:hover { background: #0e6ae6; }
-.cta-btn { align-self: flex-start; margin-bottom: 15px; }
+.cta-btn { margin-bottom: 15px; }
 .cta-btn svg { flex-shrink: 0; }
 
 /* Section label */
