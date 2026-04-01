@@ -1,4 +1,4 @@
-import { SenserLogo, PlayCircleIcon, MailIcon } from '../assets/icons'
+import { SenserLogo, EyeIcon, MailIcon } from '../assets/icons'
 import FeatureCard from './FeatureCard'
 import BenefitItem from './BenefitItem'
 
@@ -33,7 +33,7 @@ export default function LeftContent({ content, onCtaClick, onVideoClick }) {
 
       <div className="content-wrapper">
         <button className="section-label" type="button" onClick={onVideoClick}>
-          <PlayCircleIcon />
+          <EyeIcon />
           <span className="section-label-text">{sectionLabel}</span>
         </button>
 

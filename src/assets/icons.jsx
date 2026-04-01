@@ -8,10 +8,10 @@ export const SenserLogo = ({ className }) => (
   <img src="/logo.png" alt="SenseR" className={className} />
 )
 
-export const PlayCircleIcon = () => (
-  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-    <circle cx="12" cy="12" r="10" stroke="#0091FF" strokeWidth="2" fill="none" />
-    <polygon points="10,8 16,12 10,16" fill="#0091FF" />
+export const EyeIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0091FF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+    <circle cx="12" cy="12" r="3" />
   </svg>
 )
 

@@ -3,7 +3,7 @@
 html, body {
   font-family: 'Inter', sans-serif;
   background: #F5F5F5;
-  color: #000;
+  color: #002863;
   overflow: hidden;
   height: 100%;
 }
@@ -92,7 +92,7 @@ html, body {
   font-size: clamp(0.875rem, 1.25vw, 1.5rem);
   line-height: 1.4;
   letter-spacing: -0.02em;
-  color: #444;
+  color: #002863;
   max-width: 42rem;
 }
 
@@ -106,7 +106,7 @@ html, body {
   color: #fff;
   border: none;
   border-radius: 50px;
-  padding: 0.85rem 3.5rem;
+  padding: .95rem 10rem;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: clamp(0.875rem, 0.94vw, 1.125rem);
@@ -137,9 +137,8 @@ html, body {
 .section-label-text {
   font-weight: 500;
   font-size: clamp(0.875rem, 1.04vw, 1.25rem);
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  color: #000;
+  text-decoration: none;
+  color: #002863;
 }
 
 /* Feature Cards */
@@ -167,7 +166,7 @@ html, body {
 .feature-card-title {
   font-weight: 600;
   font-size: clamp(0.8125rem, 0.83vw, 1rem);
-  color: #000;
+  color: #002863;
 }
 
 .feature-card-body {
@@ -177,7 +176,7 @@ html, body {
   gap: clamp(0.2rem, 0.4vh, 0.5rem);
   font-size: clamp(0.75rem, 0.83vw, 1rem);
   line-height: 1.4;
-  color: #333;
+  color: #002863;
 }
 
 .feature-card-body li {
@@ -204,7 +203,7 @@ html, body {
 .benefits-title {
   font-weight: 500;
   font-size: clamp(0.875rem, 1.04vw, 1.25rem);
-  color: #000;
+  color: #002863;
 }
 
 .benefits-list {
@@ -223,7 +222,7 @@ html, body {
 
 .benefit-item span {
   font-size: clamp(0.75rem, 0.83vw, 1rem);
-  color: #000;
+  color: #002863;
 }
 
 /* ============ RIGHT — 50% ============ */
@@ -288,7 +287,7 @@ html, body {
 
 .form-subtitle {
   font-size: clamp(0.75rem, 0.83vw, 1rem);
-  color: #555;
+  color: #002863;
 }
 
 .contact-form {
@@ -307,7 +306,7 @@ html, body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: clamp(0.75rem, 0.73vw, 0.875rem);
-  color: #000;
+  color: #002863;
 }
 
 .req { color: #E24C4C; }
@@ -321,7 +320,7 @@ html, body {
   border-radius: 6px;
   font-family: 'Montserrat', sans-serif;
   font-size: clamp(0.75rem, 0.73vw, 0.875rem);
-  color: #000;
+  color: #002863;
   outline: none;
   transition: border-color 0.15s, box-shadow 0.15s;
 }
@@ -368,12 +367,12 @@ html, body {
 .form-success-title {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #1a1a1a;
+  color: #002863;
 }
 
 .form-success-text {
   font-size: 0.9375rem;
-  color: #555;
+  color: #002863;
 }
 
 .form-error {
@@ -487,7 +486,7 @@ html, body {
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
-  color: #1a1a1a;
+  color: #002863;
 }
 
 .admin-login-form {
@@ -517,7 +516,7 @@ html, body {
 .admin-title {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #1a1a1a;
+  color: #002863;
 }
 
 .admin-actions {
@@ -543,7 +542,7 @@ html, body {
 
 .admin-btn-outline {
   background: #fff;
-  color: #333;
+  color: #002863;
   border: 1px solid #D1D5DB;
 }
 
@@ -554,7 +553,7 @@ html, body {
   align-items: center;
   gap: 0.75rem;
   padding: 2rem;
-  color: #555;
+  color: #002863;
   font-size: 0.9375rem;
 }
 
@@ -568,7 +567,7 @@ html, body {
 .admin-empty {
   padding: 3rem 2rem;
   text-align: center;
-  color: #888;
+  color: #002863;
   font-size: 0.9375rem;
   background: #fff;
   border-radius: 12px;
@@ -591,7 +590,7 @@ html, body {
   text-align: left;
   padding: 0.75rem 1rem;
   font-weight: 600;
-  color: #555;
+  color: #002863;
   background: #FAFAFA;
   border-bottom: 1px solid #E8E8E8;
   white-space: nowrap;
@@ -600,7 +599,7 @@ html, body {
 .admin-table td {
   padding: 0.75rem 1rem;
   border-bottom: 1px solid #F0F0F0;
-  color: #333;
+  color: #002863;
 }
 
 .admin-table tr:last-child td { border-bottom: none; }
@@ -608,7 +607,7 @@ html, body {
 
 .admin-footer {
   font-size: 0.8125rem;
-  color: #888;
+  color: #002863;
   text-align: right;
 }
 
