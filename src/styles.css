@@ -283,8 +283,9 @@ html, body {
 }
 
 .form-subtitle {
-  font-size: clamp(0.75rem, 0.83vw, 1rem);
+  font-size: 14px;
   color: #002863;
+  margin-bottom: 0.8rem;
 }
 
 .contact-form {
