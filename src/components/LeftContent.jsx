@@ -32,10 +32,10 @@ export default function LeftContent({ content, onCtaClick, onVideoClick }) {
       <div className="hero-curve" />
 
       <div className="content-wrapper">
-        <button className="section-label" type="button" onClick={onVideoClick}>
+        <div className="section-label">
           <EyeIcon />
           <span className="section-label-text">{sectionLabel}</span>
-        </button>
+        </div>
 
         <div className="feature-cards">
           {featureCards.map((card, i) => (
